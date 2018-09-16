@@ -3,11 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  scoringLeaders = ["Ovechkin", "Stamkos", "Giroux", "McDavid"]
+  nhlScoringLeaders = ["Ovechkin", "Stamkos", "Giroux", "McDavid"]
 end
 
 def add_element_to_end_of_array(array, element)
-
+  array = array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
